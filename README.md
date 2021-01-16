@@ -2,7 +2,7 @@
 
 ```sh
 SITE URL
-https://www.hackerrank.com/challenges/contacts/copy-from/195856199
+https://www.hackerrank.com/challenges/contacts/problem
 ```
 
 Solved using Trie approach.
