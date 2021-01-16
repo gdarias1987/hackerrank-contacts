@@ -13,5 +13,5 @@ Solved using Trie approach.
 SITE URL
 https://www.hackerrank.com/challenges/find-the-running-median/problem
 ```
-Solved using unoptimized approach.
+Solved using unoptimized approach.</br>
 Solved using heap approach.
