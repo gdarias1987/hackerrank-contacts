@@ -48,6 +48,7 @@ public class Solution {
                     return 0; 
                 }
                 else{
+                        // Next char/node
                     current = current.children.get( name.charAt(i) );
                 }
             }
@@ -59,23 +60,18 @@ public class Solution {
     static int[] contacts(String[][] queries) {
         Trie will = new Trie();
         int cant = queries.length;       
-        // int contSearch=0;
         List<Integer> datos = new ArrayList();
         
         for(int i=0;i<cant;i++){
             if( queries[i][0].equals("add") ){
                 will.addName(queries[i][1]);
-                // contName++;
             }
             else if( queries[i][0].equals("find") ){
                 int aux = will.findPartial(queries[i][1]);
                 datos.add(aux);
-                // contSearch++;
             }
         }
         
-        
-        // return new int[]{will.root.size};
         return datos.stream().mapToInt(i->i).toArray();
     }
 
