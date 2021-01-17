@@ -1,10 +1,7 @@
 import java.io.*;
-import java.math.*;
-import java.text.*;
 import java.util.*;
-import java.util.regex.*;
 
-public class Solution {
+public class Contacts {
     public static class Node{
         
         int size;

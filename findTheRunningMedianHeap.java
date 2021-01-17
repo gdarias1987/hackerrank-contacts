@@ -4,7 +4,7 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 
-public class Solution {
+public class findTheRunningMedianHeap {
     // CONDITIONS:
     //    1) maxHeap.size() == minHeap.size()
     //    2) maxHeap.size() - 1 == minHeap.size() ( maxHeap bigger)
