@@ -9,11 +9,11 @@ public class findTheRunningMedianUnoptimized {
     static double[] runningMedian(int[] a) {
         int cant = a.length;
         double[] store = new double[cant];
-        List<Double> list = new ArrayList();
+        List<Double> list = new ArrayList<Double>();
         
         for(int i = 0;i<cant;i++){
-            list.add( new Double(a[i]) );
-                // Double aux = new Double(0);
+            list.add( Double.valueOf(a[i]));
+            // list.add( new Double(a[i]) );
 
             Collections.sort(list);
             
