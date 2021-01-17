@@ -60,7 +60,7 @@ public class Solution {
     static int[] contacts(String[][] queries) {
         Trie will = new Trie();
         int cant = queries.length;       
-        List<Integer> datos = new ArrayList();
+        List<Integer> datos = new ArrayList<Integer>();
         
         for(int i=0;i<cant;i++){
             if( queries[i][0].equals("add") ){
